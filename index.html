@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My CV</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/grid.css" />
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/queries.css"/>
+    <script src="https://kit.fontawesome.com/6741b30697.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <header id="particles-js">
+        <nav>
+        <ul class="main-nav">
+            <!-- list items  -->
+            <li><a href="#particles-js">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <!-- <li><a href="#">Experience</a></li> -->
+            <li><a href="#education">Education</a></li>
+        </ul>
+        </nav>
+        <div class="row">
+            <div class="heading-main">
+                <h2>I am a <span class="type"></span></h2>
+            </div>
+            <ul class="social-icon">
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-twitter-square"></i></li>
+                <li><i class="fab fa-github"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
+            <i class="fas fa-bars mobile-nav-icon"></i>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        </div>
+    </header>
+    <script type="text/javascript" src="vendors/js/particles.js"></script>
+    <script type="text/javascript" src="vendors/js/app.js"></script>
+    <script type="text/javascript" src="vendors/js/typed.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+            strings: ['Coder',
+                'Web Developer'],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+    <section class="about-me" id="about">
+        <div class="row">
+            <div class="col span-1-of-2">
+                <h2> SUMMARY</h2>
+                <div class="text-box">
+                    <form>
+                        My name is Le Cong Tri. I was born in 2002. I am a newbie Web Developer.
+                        Front-End is my strong point. I especially love ReactJS which is a really powerful technology.
+                    </form>
+                    <br>
+                    <form> In Web Suite (HTML, CSS and JS), I love coding with SASS, and have a quite good skill about
+                        design website.</form>
+                    <br>
+                    <form> Most of skills are learnt by watching YouTube tutorials, learning by course (in Udemy,
+                        HowKteam
+                        and FreeCodeCamp…) and reading books and document.
+                        After learning a new technology, I always use it to build some real project, try to test another
+                        way in this case. That’s my method which makes it easy for me to learn fast.</form>
+                    <br>
+                    <form> I always want to improve writing clean code skill, learn new and cool technologies, have
+                        teamwork skill,...</form>
+                </div>
+            </div>
+            <div class="col span-1-of-2">
+                <h2>CONTACT ME</h2>
+                <div class="text-box-1">
+                    <ul class="contact-icon">
+                        <li><i class="fas fa-map-marker-alt"></i> <a>Lý Thường Kiệt-Phường 14<br>Quận 10- Hồ Chí
+                                Minh</a></li>
+                        <li><i class="fas fa-phone"></i><a> 0379059743</a></li>
+                        <li><i class="fas fa-envelope"></i> <a>letri6102@gmail.com </a></li>
+                        <li><i class="fab fa-facebook"></i><a
+                                href="https://www.facebook.com/profile.php?id=100012057105916"> My Facebook</a></li>
+                        </li>
+                        <li><i class="fab fa-github"></i><a href="https://github.com/Letri6102"> My GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>MY SKILLS</h2>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="resources/imgs/design.png" alt="logo">
+                        <h3>Design</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <ul>
+                            <p>VERSION CONTROL</p>
+                            <li>Git</li>
+                            <li>Github</li>
+                            <p>CODE EDITOR</p>
+                            <li>Visual Studio Code</li>
+                            <li>Sublime Text</li>
+                        </ul>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="resources/imgs/code.png" alt="logo">
+                        <h3>Code</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <ul>
+                            <p>PROGRAMING LANGUAGES</p>
+                            <li>C/C++</li>
+                            <li>Web Suite(HTML,CSS,SASS)</li>
+                            <li>Python (learning)</li>
+                            <li>Java Script</li>
+                        </ul>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="resources/imgs/open-book.png" alt="logo">
+                        <h3>Knowledge</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <ul>
+                            <p>ENGLISH SKILL</p>
+                            <li>Able to read foreign books and documents</li>
+                            <li>Quite good at listening</li>
+                            <p>KNOWLEDGE</p>
+                            <li>Lean Code</li>
+                        </ul>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h2>EDUCATION</h2>
+        <div class="box">
+            <div class="text">
+                <div>
+                    <img src="resources/imgs/education.png" alt="icon">
+                    <p>I’m currently a Fresher of Ho Chi Minh University Education (HCMUE) </p>
+                    <p1>Status: Undergraduate</p1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Copyright &copy; 2021 by TriLe
+        </p>
+    </footer>
+    <!-- scrollbar  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        let progress = document.getElementById('progressbar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function () {
+            let progressHeight = (window.pageYOffset / totalHeight) * 100;
+            progress.style.height = progressHeight + "%";
+        }
+    </script>
+    <!-- sticky -->
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/scripts.js"></script>
+</body>
+
+</html>
