@@ -78,7 +78,7 @@
         display: none;
     }
     .about-me{
-        min-height: 100vh;
+        min-height: 50vh;
     }
     .main-nav{
         margin-right: 20px;
@@ -115,7 +115,7 @@
 
     /* skills */
     .skills{
-        min-height: 100vh;
+        min-height: 50vh;
         display: flex;
         justify-self: stretch;
         justify-items: stretch;
@@ -168,6 +168,9 @@
         font-size: 70%;
     }
     /* education */
+    .education{
+        min-height: 50vh;
+    }
     .education h2{
         font-size:120%;
         left: 0%;
