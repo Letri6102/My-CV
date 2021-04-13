@@ -1,0 +1,198 @@
+/* Big tablet to 1200px; */
+@media only screen  and (max-width:1200px){
+ 
+}
+
+/* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px){
+    /* about section */
+    .main-nav{
+        display:none;
+    }
+    .text-box{
+        margin-left: 10px;
+        width: 100%;
+        padding: 0;
+        height: 700px;
+    }
+    .text-box-1{
+        margin: 10px;
+        width: 90%;
+        height: 450px;
+    }
+    .about-me h2{
+        margin-left: 50px;
+    }
+    /* skills  */
+    .skills h2{  
+        top: -15%;
+        left: 40%;
+    }
+    .container .card {
+        margin: 0 auto;
+    }
+    .container .card .face{
+        width: 225px;
+        height: 150px; 
+        transition: 0.5s;
+    }
+    .container .card .face.face1{
+        transform: translateY(50px);
+    }
+    .container .card .face.face1 .content img{
+        max-width:75px;
+    }
+    .container .card .face.face1 .content h3{
+        margin:10px 0 0;
+        font-size: 0.75em;
+    }
+    .container .card .face.face2{
+        padding: 0px;
+        transform: translateY(-100px);
+    }
+
+    .container .card .face.face2 .content ul{
+        font-size: 75%;
+    }
+    .container .card .face.face2 .content ul li{
+        margin-left: 20px;
+    }
+    .container .card .face.face2 .content a{
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 80%;
+    }
+    /* education */
+    .education h2{ 
+        margin-top: 10%;
+        margin-left: 40%;
+    }
+
+}
+/* Small phones to small tablets */
+@media only screen and (max-width: 767px){
+    .mobile-nav-icon{
+        font-size: 150%;
+        top: 20px;
+        right: 25px; 
+        display: none;
+    }
+    .about-me{
+        min-height: 100vh;
+    }
+    .main-nav{
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .social-icon{
+        left:30%;
+    }
+    .btn{
+        left: 30%;
+    }
+     /* about section */
+     .text-box{
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+        height: 600px;
+    }
+    .text-box-1{
+        margin: 0 auto;
+        width: 80%;
+        height: 400px;
+    }
+    .about-me h2{
+        margin-left: 50px;
+        font-size: 120%;
+    }
+    form{
+        font-size: 70%;
+    }
+    .contact-icon{
+        font-size:70%;
+    }
+
+    /* skills */
+    .skills{
+        min-height: 100vh;
+        display: flex;
+        justify-self: stretch;
+        justify-items: stretch;
+    }
+    .skills h2{  
+        top: 10%;
+        left: 40%;
+        font-size: 120%;
+    }
+    .container .card {
+       margin-top:100px;
+       padding: 0;
+       display: inline;
+    }
+    .container .card .face{
+        width: 180px;
+        height: 120px; 
+        transition: 0.5s;
+    }
+    .container .card .face.face1{
+        transform: translateY(0px);
+    }
+    .container .card .face.face1 .content img{
+        max-width:50px;
+    }
+    .container .card .face.face1 .content h3{
+        margin:10px 0 0;
+        font-size: 0.5em;
+    }
+    .container .card .face.face2{
+        padding: 0px;
+        transform: translateY(-120px);
+    }
+
+    .container .card .face.face2 .content ul{
+        font-size: 50%;
+    }
+    .container .card .face.face2 .content ul li{
+        margin-left: 50px;
+    }
+    
+    .container .card .face.face2 .content ul p{
+        text-align: center;
+        font-weight: bold;
+    }
+    .container .card .face.face2 .content a{
+        margin: 5px 0 0;
+        padding: 0px;
+        border: 0.5px solid #333;
+        font-size: 70%;
+    }
+    /* education */
+    .education h2{
+        font-size:120%;
+        left: 0%;
+        margin-top:70px;
+    }
+    .box{
+        width:50%;
+    }
+    .text{
+        height:80%;
+    }
+    .text div{
+        top: -10%;
+        padding: 20px 40px;
+        margin-top: 5px;
+    }
+    .text div img{
+        margin-top: 20px;
+        max-width: 70px;
+    }
+    .text div p{
+        font-size: 20px;
+
+    }
+}
+
+
+
